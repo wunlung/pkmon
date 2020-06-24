@@ -1,0 +1,34 @@
+import random
+command = input ("是否開始遊戲? 0.開始對戰 1.走為上策")
+c_choice = random.randint(0,2)
+if command == 0:
+    choice = int(input ("你要派出哪隻小精靈? 0.奇異種子 1.車厘龜 2.小火龍"))
+    if choice == 0:
+        print ("你派出了奇異種子!")
+        if c_choice == 0:
+            print ("對手派出了奇異種子!一同中了葉子飛刀，一起死了")
+        elif c_choice == 1:
+            print ("對手派出了車厘龜!你把對方送去了海天堂，你贏了")
+        elif c_choice == 2:
+            print ("對手派出了小火龍!對方把你BBQ了，你的種子已經死了")
+        
+    if choice == 1:
+        print ("你派出了車厘龜!")
+        if c_choice == 0:
+            print ("對手派出了奇異種子!你中了葉子飛刀，死了")
+        elif c_choice == 1:
+            print ("對手派出了車厘龜!一起水炮，沒事兒")
+        elif c_choice == 2:
+            print ("對手派出了小火龍!你用口水吐死了對手，你贏了")
+        
+    if choice == 2:
+        print ("你派出了小火龍!")
+        if c_choice == 0:
+            print ("對手派出了奇異種子!你把對方BBQ了，今晚的晚餐準備好了")
+        elif c_choice == 1:
+            print ("對手派出了車厘龜!你被噴飛，你輸了")
+        elif c_choice == 2:
+            print ("對手派出了小火龍!火龍不打火龍，各自打死對方的訓練員，牛逼死了")
+        
+elif command == 1:
+    print("你媽叫你吃奶，快回家")
