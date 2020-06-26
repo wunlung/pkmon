@@ -1,0 +1,26 @@
+class jojo():
+    age = "27"
+    def talk(self):
+        return "hellow"
+
+j = jojo() # 
+
+print(jojo.age)
+print(j.talk())
+print(j.age) 
+
+class Calculator():
+    name='good calculator'
+    price=18
+    def _init_(self,name,price):
+        self.n=name
+        self.p=price
+    def andy():
+        print("hellow")
+        
+d = Calculator.andy()
+c = Calculator.name #
+a = Calculator("jojo",100).n
+
+print(c)
+print(a)
