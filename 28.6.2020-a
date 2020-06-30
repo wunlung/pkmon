@@ -1,0 +1,126 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10 12.4 (3+5j) hellow world True\n",
+      "<class 'int'>\n",
+      "<class 'float'>\n",
+      "<class 'complex'>\n",
+      "<class 'str'>\n",
+      "<class 'bool'>\n",
+      "<class 'NoneType'>\n",
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "#int#\n",
+    "#float#\n",
+    "#str#\n",
+    "\n",
+    "#float, int, str, list, dict, tuple#\n",
+    "\n",
+    "iv=10\n",
+    "fv=12.4\n",
+    "cv=3+5j\n",
+    "sv='hellow world'\n",
+    "bv=True\n",
+    "nv=None\n",
+    "\n",
+    "print(iv,fv,cv,sv,bv)\n",
+    "print(type(iv))\n",
+    "print(type(fv))\n",
+    "print(type(cv))\n",
+    "print(type(sv))\n",
+    "print(type(bv))\n",
+    "print(type(nv))\n",
+    "print(isinstance(sv,str))#查是否特定類型#"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (<ipython-input-3-f94eb436b561>, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  File \u001b[1;32m\"<ipython-input-3-f94eb436b561>\"\u001b[1;36m, line \u001b[1;32m1\u001b[0m\n\u001b[1;33m    print(iv/,fv/,cv/,sv/,bv)#想出10/ 12.4/ (3+5j)/ hellow world/ True ,但不成功#\u001b[0m\n\u001b[1;37m             ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(iv/,fv/,cv/,sv/,bv)#想出10/ 12.4/ (3+5j)/ hellow world/ True ,但不成功#"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello, what is your name? name\n",
+      "hi,  name\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = input('Hello, what is your name? ')\n",
+    "print ('hi, ', name)\n",
+    "#command = input (\"是否開始遊戲? 0.開始對戰 1.走為上策\")\n",
+    "#c_choice = random.randint(0,2)\n",
+    "#if command == 0:\n",
+    "   # choice = int(input (\"你要派出哪隻小精靈? 0.奇異種子 1.車厘龜 2.小火龍\"))\n",
+    "   # if choice == 0:\n",
+    "       # print (\"你派出了奇異種子!\")#"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
